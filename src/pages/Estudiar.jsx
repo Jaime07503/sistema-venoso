@@ -46,7 +46,7 @@ export default function Estudiar() {
           </ul>
 
           <img
-            src="/vena_superficial.png"
+            src="/vena_superficial.webp"
             alt="Venas Superficiales"
             className="mt-6 mx-auto w-full rounded-2xl border border-white/40"
           />
@@ -70,7 +70,7 @@ export default function Estudiar() {
           </ul>
 
           <img
-            src="/vena_profundas.png"
+            src="/vena_profundas.webp"
             alt="Venas Profundas"
             className="mt-6 mx-auto w-full rounded-2xl border border-white/40"
           />
@@ -93,7 +93,7 @@ export default function Estudiar() {
           </ul>
 
           <img
-            src="/vena_axilar.png"
+            src="/vena_axilar.webp"
             alt="Vena Axilar"
             className="mt-6 mx-auto w-full rounded-2xl border border-white/40"
           />

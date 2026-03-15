@@ -17,7 +17,7 @@ import { GameIcon, HomeIcon } from "../components/Icons";
 const juegoBase = [
   {
     id: 1,
-    imagen: "/vena_axilar.png",
+    imagen: "/vena_axilar.webp",
     pregunta: "Arrastra la respuesta correcta hacia la zona señalada.",
     pista: "La flecha señala la vena del lado lateral del brazo.",
     correcta: "Vena cefálica",
@@ -25,7 +25,7 @@ const juegoBase = [
   },
   {
     id: 2,
-    imagen: "/vena_profundas.png",
+    imagen: "/vena_profundas.webp",
     pregunta: "Arrastra la respuesta correcta hacia la zona señalada.",
     pista: "La flecha señala la vena del lado medial del brazo.",
     correcta: "Vena basílica",
@@ -33,7 +33,7 @@ const juegoBase = [
   },
   {
     id: 3,
-    imagen: "/vena_superficial.png",
+    imagen: "/vena_superficial.webp",
     pregunta: "Arrastra la respuesta correcta hacia la zona señalada.",
     pista: "La flecha señala venas profundas que acompañan la arteria braquial.",
     correcta: "Venas braquiales",
