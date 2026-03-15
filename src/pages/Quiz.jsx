@@ -3,7 +3,7 @@ import confetti from "canvas-confetti";
 import MobileLayout from "../components/MobileLayout";
 import SectionCard from "../components/SectionCard";
 import PrimaryButton from "../components/PrimaryButton";
-import { QuizIcon } from "../components/Icons";
+import { QuizIcon, HomeIcon } from "../components/Icons";
 
 const preguntasBase = [
   {
@@ -293,7 +293,7 @@ export default function Quiz() {
       )}
 
       <div className="mt-6 mb-24">
-        <PrimaryButton text="Volver al inicio" to="/" icon="🏠" variant="clinic" />
+        <PrimaryButton text="Volver al inicio" to="/" icon={<HomeIcon />} variant="clinic" />
       </div>
     </MobileLayout>
   );

@@ -1,7 +1,7 @@
 import MobileLayout from "../components/MobileLayout";
 import SectionCard from "../components/SectionCard";
 import PrimaryButton from "../components/PrimaryButton";
-import { ClinicIcon } from "../components/Icons";
+import { ClinicIcon, HomeIcon } from "../components/Icons";
 
 export default function Clinica() {
   const recorrido = [
@@ -83,7 +83,7 @@ export default function Clinica() {
         <PrimaryButton
           text="Volver al inicio"
           to="/"
-          icon="🏠"
+          icon={<HomeIcon />}
           variant="clinic"
         />
       </div>

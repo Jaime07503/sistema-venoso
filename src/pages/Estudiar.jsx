@@ -2,7 +2,7 @@ import { useState } from "react";
 import MobileLayout from "../components/MobileLayout";
 import SectionCard from "../components/SectionCard";
 import PrimaryButton from "../components/PrimaryButton";
-import { StudyIcon } from "../components/Icons";
+import { StudyIcon, HomeIcon } from "../components/Icons";
 
 export default function Estudiar() {
   const [openSection, setOpenSection] = useState(null);
@@ -101,7 +101,7 @@ export default function Estudiar() {
       )}
 
       <div className="mt-6 mb-24">
-        <PrimaryButton text="Volver al inicio" to="/" icon="🏠" variant="clinic" />
+        <PrimaryButton text="Volver al inicio" to="/" icon={<HomeIcon />} variant="clinic" />
       </div>
     </MobileLayout>
   );

@@ -12,7 +12,7 @@ import {
 import MobileLayout from "../components/MobileLayout";
 import SectionCard from "../components/SectionCard";
 import PrimaryButton from "../components/PrimaryButton";
-import { GameIcon } from "../components/Icons";
+import { GameIcon, HomeIcon } from "../components/Icons";
 
 const juegoBase = [
   {
@@ -376,7 +376,7 @@ export default function Juego() {
       )}
 
       <div className="mt-6 mb-24">
-        <PrimaryButton text="Volver al inicio" to="/" icon="🏠" variant="clinic" />
+        <PrimaryButton text="Volver al inicio" to="/" icon={<HomeIcon />} variant="clinic" />
       </div>
     </MobileLayout>
   );
